@@ -1,0 +1,60 @@
+
+main{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bg-image{
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_2560,w_4096,c_fit,f_auto,q_auto:best/Homepage-Model-3-Desktop-LHD);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+*{
+    padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+}
+button{
+    margin-top: 73vh;
+    padding: 7px;
+    width: 200px;
+    cursor: pointer;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
+}
+#my-footer{
+    text-align: center;
+    font-style: italic;
+}
+p{
+    margin: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+span{
+    padding: 10px;
+    cursor: pointer;
+}
+span:hover{
+    background-color: grey;
+    transition: 2s;
+    transition-delay: 0.5ms;
+}
+#my-button{
+    background-color: black;
+    color: white;
+}
+
+.logo{
+
+    width: 10px;
+}
